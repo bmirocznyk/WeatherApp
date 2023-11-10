@@ -1,0 +1,70 @@
+#autocomplete-suggestions div{
+    padding: 5px;
+    cursor: pointer;
+}
+
+#autocomplete-suggestions div:hover {
+    background: #505962;
+}
+
+#geocodingResults {
+    width: 25%;
+    background: #e0e0e0;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 0 10px 0px #000000a1;
+    margin:auto;   
+}
+
+.city-container, .values-container {
+    display: flex;
+    align-items: center;
+}
+
+.city-container i{
+    margin-right: 4px;
+}
+
+#temp {
+    font-size: 3em;
+    font-weight: 800;
+}
+
+#max-temp, #min-temp, #humidity {
+    margin-left: 7px;
+}
+
+.secondary-title {
+    text-align: center;
+    padding: 1em 0;
+    font-weight: 800;
+}
+
+#weatherInfo{
+    margin: auto;
+}
+
+#weather-day-container {
+    width: 300px !important;
+    background: aliceblue;
+    margin: 0 7px;
+    box-shadow: 0 0 7px 0px #0000007d;
+    border-radius: 10px;
+}
+
+.section-5days {
+    padding-top: 2vh;
+    height: 94vh;
+    background-color: aquamarine;
+    background: linear-gradient(180deg, rgba(232,232,232,0.6112570028011204) 24%, rgba(0,147,255,0.6308648459383753) 75%);
+    background-size: cover;
+    background-position: center;
+}
+
+.align-items-center{
+    text-align: center; 
+}
+
+.text-align-center{
+    padding-bottom: 2vh;
+}
